@@ -1,0 +1,6 @@
+An ANSI C implementation of Shotgun Sort. The general algorithm works as such:
+
+SGSORT(list):
+    while list is not sorted:
+        randomize list
+
