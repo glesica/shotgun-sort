@@ -4,3 +4,10 @@ SGSORT(list):
     while list is not sorted:
         randomize list
 
+Note: This should be obvious, but in case it isn't, don't actually use this 
+algorithm for real work. It's time complexity is unbounded and it may never 
+terminate.
+
+Note 2: I didn't think very hard about the randomize() function, it may 
+not produce orderings in a uniformly distributed manner. But really who 
+cares, as long as all orderings are possible.
