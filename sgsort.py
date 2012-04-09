@@ -7,9 +7,8 @@ import random
 
 def sgsorted(iterable, reverse=False):
     """
-    Accepts an iterable `l` and returns a copy of 
-    it that has been sorted from "smallest" to 
-    "largest".
+    Accepts an iterable `iterable` and returns a copy of 
+    it that has been sorted in ascending order.
 
     If `reverse` is True, descending order will be used.
     """
