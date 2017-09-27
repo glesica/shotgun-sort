@@ -1,8 +1,9 @@
 /*
-    demo.c
-    Author: George Lesica <glesica@gmail.com>
-    Description: Demo program for shotgun sort.
-*/
+ * demo.c
+ * Author: George Lesica <george@lesica.com>
+ * Description: Demo program for shotgun sort.
+ *
+ */
 
 #include <stdio.h>
 #include "sgsort.h"

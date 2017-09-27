@@ -1,8 +1,9 @@
 /*
-    shotgun.c
-    Author: George Lesica <glesica@gmail.com>
-    Description: An ANSI C implementation of the shotgun sorting algorithm.
-*/
+ * shotgun.c
+ * Author: George Lesica <george@lesica.com>
+ * Description: An ANSI C implementation of the "shotgun sort" algorithm.
+ *
+ */
 
 #include <stdlib.h>
 #include <string.h>
@@ -32,7 +33,7 @@ void randomize(
     size_t num,
     size_t size
 ) {
-    int i, j;
+    size_t i, j;
     char *b = (char *) base;
     void *temp = malloc(size);
 

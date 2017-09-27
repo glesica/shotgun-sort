@@ -1,8 +1,9 @@
 /*
-    shotgun.h
-    Author: George Lesica <glesica@gmail.com>
-    Description: An ANSI C implementation of the shotgun sorting algorithm.
-*/
+ * shotgun.h
+ * Author: George Lesica <george@lesica.com>
+ * Description: An ANSI C implementation of the "shotgun sort" algorithm.
+ *
+ */
 
 void sgsort(
     void * base, 
